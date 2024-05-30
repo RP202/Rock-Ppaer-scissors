@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Rock Paper Scissors :)</h1>
+    <div class="choices">
+     <div class="choice" id="rock"> <img src="Rock.jpg" style="height:200px"style="width:200px"></div>
+     <div class="choice" id="paper"><img src="Paper.jpg"style="height:200px"style="width:200px"></div>
+     <div class="choice" id="scissor"><img src="Scissors.jpg"style="height:200px"style="width:200px"></div>
+    </div>
+    <p id="noti">SCORE-BOARD   </p>
+    <div class="score-board">
+      
+        <div class="user">
+            <p id="userscore">0</p>
+            <p>U</p>
+        </div>
+        <div class="comp">
+            <p id="compscore">0</p>
+            <p>comp</p>
+        </div>
+ 
+    </div>
+ <div class="msg-cotainer" >
+    <div id="msg">Play your turn!</div>
+ </div>
+<button onclick="rstgame()">Reset Game!</button>
+        <script src="script.js"></script>
+</body>
+</html>

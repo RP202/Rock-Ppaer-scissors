@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    text-align: center;
+    margin:0%;
+}
+body{
+    background-color: pink;
+}
+#heading{
+    text-align: center;
+    font-family: cursive;
+    color: palevioletred;
+    background-color: pink;
+    padding: 0%;
+    height:5rem;
+    line-height:5rem;
+    text-decoration: dotted;
+}
+.choices{
+    display:flex;
+    flex-direction: row;
+ justify-content: center;
+   text-align: center;
+   margin:3%;
+   margin-top:0.5%;
+  border-radius: 50%;
+}
+img{
+    border-radius: 50%;
+
+}
+.choice{
+    margin:2%;
+  background: transparent;
+  border-radius: 50%;
+}
+.choice:hover{
+  cursor: pointer;
+  box-shadow:0 5px 8px 0 rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.19);
+ }
+
+.score-board{
+    height:15%;
+  font-size:x-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.user,.comp{
+    margin:1.5%;
+   font-size:2.5rem;
+}
+#noti{
+  font-size:1.5rem;
+    text-decoration-line: underline;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: palevioletred;
+}
+.msg-cotainer{
+    height:15%;
+    width:20%;
+    background-color: palevioletred;
+    margin-left:41%;
+    line-height:4rem;
+    border-radius:14px;
+}
+#msg{
+    font-size:1.5rem;
+    color:pink;
+}
+button{
+  margin:0.5%;
+  font-size: medium;
+  background-color: antiquewhite;
+  color: black;
+
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(235, 205, 167);
+}
